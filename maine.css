@@ -1,0 +1,197 @@
+@font-face {
+  font-family: ubunto;
+  src: url(src/fonts/Ubuntu-Regular.ttf)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: ubunto;
+  vertical-align: top;
+  height: 9000px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  display: block;
+  left: 0;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+  width: 110px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.mac-tag {
+  text-align: center;
+  font-size: 30px;
+  padding: 50px;
+  height: 800px;
+}
+
+.top-container {
+  height: 500px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.top-left {
+  height: 500px;
+  margin: 50px;
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  vertical-align: top;
+
+}
+
+.top-right {
+  height: 500px;
+  margin: 50px;
+  display: inline-block;
+  width: 42%;
+  text-align: center;
+  vertical-align: top;
+
+}
+
+.middle-left {
+  width: 30%;
+  display: inline-block;
+  font-size: 20px;
+
+}
+
+.macbook-tag {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.middle-center {
+  width: 30%;
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.middle-right {
+  width: 30%;
+  display: inline-block;
+  font-size: 20px;
+
+}
+
+#compare {
+  background-color: #fafafa;
+
+}
+
+.color-circle {
+  border-radius: 50%;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 25px 1px;
+  background-color: #abaeb3;
+}
+
+.my-sec {
+  padding: 50px;
+  margin-left: 100px;
+}
+
+.color-circle2 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 25px 1px;
+  background-color: #e2e3e4;
+}
+
+.my-sec {
+  text-align: center;
+  vertical-align: middle;
+}
+
+hr {
+  margin: 20px;
+}
+
+.m1-chip {
+  padding: 20px;
+  display: inline-block;
+}
+
+.core {
+  padding: 40px;
+}
+
+.bottom-container {
+  width: 96%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bottom-left {
+  width: 47%;
+  margin: 1%;
+  display: inline-block;
+  vertical-align:auto;
+  background-color: #f2f2f2;
+}
+
+.bottom-right {
+  background-color: #f2f2f2;
+  width: 44%;
+  margin: 1%;
+  display: inline-block;
+
+}
+
+.left-bottom-container {
+  padding: 80px;
+  font-size: 20px;
+}
+
+.right-bottom-container{
+  padding: 45px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.text{
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+
+ 
+}
+
+/* 
+ .man{
+  display: inline-block;
+  vertical-align: bottom;
+}  */
